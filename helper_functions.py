@@ -30,11 +30,11 @@ def app_section_button(option1, option2, option3, option4):
       
  
 
-def app_meta():
+def app_meta(icon):
 
     # Set website details
     st.set_page_config(page_title ="Data Quality Wrapper", 
-                       page_icon='📊', 
+                       page_icon=icon, 
                        layout='centered')
     
     # set sidebar width
