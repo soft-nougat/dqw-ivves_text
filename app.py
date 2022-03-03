@@ -20,7 +20,7 @@ try:
         st.session_state.data = None
 
     # app design
-    app_meta()
+    app_meta('📚')
     set_bg_hack('dqw_background.png')
 
     # set logo in sidebar using PIL
@@ -38,9 +38,9 @@ try:
     st.markdown("""---""")
     # provide options to user to navigate to other dqw apps
     app_section_button('Text Data Section 📚',
-    '[Tabular Data Section 🏗️](https://emojifinder.com/crane)',
-    '[Audio Data Section 🎶](https://emojifinder.com/crane)',
-    '[Image Data Section 🖼️](https://emojifinder.com/crane)')
+    '[Tabular Data Section 🏗️](https://share.streamlit.io/soft-nougat/dqw-ivves_structured/main/app.py)',
+    '[Audio Data Section 🎶](https://share.streamlit.io/soft-nougat/dqw-ivves_audio/main/app.py)',
+    '[Image Data Section 🖼️](https://share.streamlit.io/soft-nougat/dqw-ivves_images/main/app.py)')
     st.markdown("""---""")
     
     text_data_app()
