@@ -12,8 +12,8 @@ This repo contains the DQW text streamlit app code, however, the streamlit apps 
 The packages used in the application are in the table below.
 
 | App section                |     Description    |     Visualisation    |     Selection    |     Package             |
-|----------------------------|--------------------|----------------------|------------------|
-|     Text                   |                    |                      |         x        |     [NLTK](https://github.com/nltk/nltk)               |
+|----------------------------|--------------------|----------------------|------------------|------------------|                       
+|     Text                   |                    |                      |         x        |     [NLTK](https://github.com/nltk/nltk)  |
 |     Text                   |                    |                      |         x        |     [SpaCy](https://github.com/explosion/spaCy)               |
 |     Text                   |          x         |                      |         x        |     [TextBlob](https://github.com/sloria/TextBlob)            |
 |     Text                   |          x         |           x          |                  |     [WordCloud](https://github.com/amueller/word_cloud)           |
