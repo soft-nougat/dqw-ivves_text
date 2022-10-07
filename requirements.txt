@@ -19,3 +19,4 @@ tqdm==4.54.1
 audiomentations
 textstat
 opencv-python-headless
+importlib-metadata==4.13.0
